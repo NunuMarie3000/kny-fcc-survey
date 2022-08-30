@@ -1,0 +1,151 @@
+body{
+  background-image: url("https://wallpapercave.com/wp/wp5472932.jpg");
+  background-size: 120%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#title-heading{
+  text-align: center;
+  margin: 20px 0px 0px 0px;
+  color: hsl(52, 92%, 39%);
+}
+
+#title{
+  font-size: 35px;
+}
+
+#description{
+  font-size: 25px;
+}
+
+#survey-form{
+  display: block;
+  margin: 0 325px 40px 325px;
+  padding: 20px;
+  background-color: hsla(279, 75%, 36%, .8);
+  border-radius: 5%;
+}
+
+#name-container{
+  margin: 20px 0px 0px 0px;
+}
+
+#name-label{
+  font-family: Arial, Helvetica, sans-serif;
+  color: yellow;
+  font-size: 18px;
+}
+
+input[type=text]{
+  width: 100%;
+  padding: 6px 0px;
+}
+
+#email-container{
+  margin: 20px 0px 0px 0px;
+}
+
+#email-label{
+  font-family: Arial, Helvetica, sans-serif;
+  color: yellow;
+  font-size: 18px;
+}
+
+input[type=email]{
+  width: 100%;
+  padding: 6px 0px;
+}
+
+#number-container{
+    margin: 20px 0px 0px 0px;
+}
+
+#number-label{
+  font-family: Arial, Helvetica, sans-serif;
+  color: yellow;
+  font-size: 18px;
+}
+
+input[type=number]{
+  width: 100%;
+  padding: 6px 0px;
+}
+
+#hashira-container{
+    margin: 20px 0px 0px 0px;
+}
+
+#fav-hashira{
+  font-family: Arial, Helvetica, sans-serif;
+  color: yellow;
+  font-size: 18px;
+}
+
+select{
+  width: 100%;
+  padding: 6px 0px;
+}
+
+#swordsmith{
+  font-family: Arial, Helvetica, sans-serif;
+  color: yellow;
+  font-size: 18px;
+}
+
+#radio{
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  margin: 20px 0px 0px 0px;
+}
+
+#symp-container{
+    margin: 20px 0px 0px 0px;
+}
+
+#sympathetic{
+  font-family: Arial, Helvetica, sans-serif;
+  color: yellow;
+  font-size: 18px;
+}
+
+#symp-demon{
+  font-size: 18px;
+  color: white;
+}
+
+#moment-container{
+    margin: 20px 0px 0px 0px;
+}
+
+#moment{
+  font-family: Arial, Helvetica, sans-serif;
+  color: yellow;
+  font-size: 18px;
+}
+
+textarea{
+  width: 100%;
+}
+
+#fav-moment{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+#submit-button{
+  text-align: center;
+  margin: 10px;
+}
+
+#submit{
+  background-color: hsl(52, 70%, 70%);
+  font-size: 20px;
+  border-radius: 10%;
+}
+
+#submit:hover{
+  background-color: hsl(279, 75%, 36%);
+  color: hsl(52, 70%, 70%);
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Kimetsu No Yaiba Survey Assignment for Free Code Camp by Storm O'Bryant</title>
+</head>
+<body>
+  <div id="title-heading">
+    <h1 id="title">Kimetsu No Yaiba Survey Form</h1>
+      <p id="description">For lovers of the hit anime, Demon Slayer</p>
+  </div>
+    
+  <form id="survey-form">
+    
+    <div id="name-container">
+      <label id="name-label" for="name">Please Enter Your Name
+        <input type="text" id="name" name="name" placeholder="Haganezuka Hotaru" required>
+      </label>
+    </div><br>
+    
+    <div id="email-container">
+      <label id="email-label" for="email">Please Enter Your Email
+        <input type="email" id="email" name="email" placeholder="kny@demonslayer.com" required>
+      </label>
+    </div><br>
+    
+    <div id="number-container">
+      <label id="number-label" for="number">How old are you? (Optional)
+        <input id="number" type="number" min="15" max="101" placeholder="24">
+      </label>
+    </div><br>
+    
+    <div id="hashira-container">
+        <p id="fav-hashira">Who is your favorite Hashira?</p>
+        <select id="dropdown" name="hashira" required>
+          <option disabled selected value>Select your favorite Hashira</option>
+          <option value="gyomei">Himejima Gyomei, The Stone Hashira</option>
+          <option value="sanemi">Shinazugawa Sanemi, The Wind Hashira</option>
+          <option value="giyu">Tomioka Giyu, The Water Hashira</option>
+          <option value="muichirou">Tokito Muichirou, The Mist Hashira</option>
+          <option value="mitsuri">Kanroji Mitsuri, The Love Hashira</option>
+          <option value="obanai">Iguro Obanai, The Serpent Hashira</option>
+          <option value="shinobu">Kocho Shinobu, The Insect Hashira</option>
+          <option value="kyojuro">Rengoku Kyojurou, The Flame Hashira</option>
+          <option value="tengen">Uzui Tengen, The Sound Hashira</option>
+        </select>
+      </div><br>   
+    
+    <fieldset id="radio">
+      <legend id="swordsmith">How excited are you for the Swordsmith Village Arc?</legend>
+      <label for="meh">
+        <input id="meh" type="radio" name="how-excited" value="meh">Meh
+      </label>
+      <label for="excited">
+        <input id="excited" type="radio" name="how-excited" value="excited">Excited
+      </label>
+      <label for="umai">
+        <input id="umai" type="radio" name="how-excited" value="umai">Rengoku yelling "UMAI"!
+      </label>
+    </fieldset>
+    
+    <div id="symp-container">
+      <p id="sympathetic">Who is the most sympathetic demon?</p>
+    <div id="symp-demon">
+    <label for="daki">
+      <input id="daki" type="checkbox" name="demon" value="daki">Daki
+    </label>
+      <label for="gyutaro">
+        <input id="gyutaro" type="checkbox" name="demon" value="gyutaro">Gyutaro
+      </label>
+      <label for="akaza">
+        <input id="akaza" type="checkbox" name="demon" value="akaza">Akaza
+      </label>
+      <label for="muzan">
+        <input id="muzan" type="checkbox" name="demon" value="muzan">Muzan
+      </label>
+      <label for="rui">
+        <input id="rui" type="checkbox" name="demon" value="rui">Rui
+      </label>
+      <label for="nezuko">
+        <input id="nezuko" type="checkbox" name="demon" value="nezuko">Kamado Nezuko
+      </label>
+      <label for="tamayo">
+        <input id="tamayo" type="checkbox" name="demon" value="tamayo">Lady Tamayo
+      </label>
+      </div>
+    </div>
+    
+    <div id="moment-container">
+      <p id="moment">Please share your favorite Kimetsu No Yaiba moment!</p>
+      <textarea id="fav-moment" name="fav-moment" placeholder=" My favorite moment was..."></textarea>
+    </div>
+    
+    <div id="submit-button">
+      <button id="submit" type="submit">Submit</button>
+    </div>
+      
+  </form>
+</body>
+</html>
